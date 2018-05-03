@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button, FormControl, ControlLabel, HelpBlock, Jumbotron, Grid } from 'react-bootstrap';
+import { Button, FormControl, ControlLabel, Jumbotron, Grid } from 'react-bootstrap';
 import GuestbookRow from './GuestbookRow'
 
 class Guestbook extends React.Component {
@@ -70,14 +70,8 @@ class Guestbook extends React.Component {
             {/* <input id="message" name="message" type="text" onChange={this.handleInputChange} required /> */}
             <Button type="submit">Submit</Button>
             <br/>
-            <HelpBlock>{this.state.name}</HelpBlock>
-            <HelpBlock>{this.state.message}</HelpBlock>
           </form>
         </Jumbotron>
-        {/* <div id="output">
-          <p>{this.state.name}</p>
-          <p>{this.state.message}</p>
-        </div> */}
           <GuestbookRow guestbook={this.state.guestbook} />
       </Grid>
     );
