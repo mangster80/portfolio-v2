@@ -11,9 +11,10 @@ app.use(bodyParser.urlencoded({ extended: true }));
 const SELECT_ALL_POSTS_QUERY = 'SELECT * FROM guestbook';
 
 const connection = mysql.createConnection({
-  host: 'localhost',
-  user: 'root',
-  database: 'guestbook'
+  host: 'crockett.highstone.biz',
+  user: 'portfolio',
+  password: 'Portfolio123',
+  database: 'mw_guestbook'
 });
 
 connection.connect(err => {
