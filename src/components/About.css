@@ -1,0 +1,23 @@
+.badge {
+  max-width: 200px;
+  margin: 1% auto;
+}
+
+.about-profile-pic {
+  max-width:150px;
+  margin: 1% auto;
+}
+
+h4 {
+  text-align: center;
+}
+/* .header-image {
+  width: 100%;
+  margin-top: -2em;
+  margin-bottom: 2em;
+}
+
+.about-profile-pic {
+  float: left;
+  margin: 0 1em 1em 0;
+} */

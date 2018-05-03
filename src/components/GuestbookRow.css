@@ -1,0 +1,4 @@
+.postmessage {
+  display: flex;
+  flex-direction: column-reverse;
+}
