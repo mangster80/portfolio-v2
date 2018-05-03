@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Grid, Col, Image, Row, Jumbotron } from 'react-bootstrap';
+import { Grid, Col, Image, Row, Button, Jumbotron } from 'react-bootstrap';
 import './About.css';
 
 export default class About extends Component {
@@ -10,10 +10,14 @@ export default class About extends Component {
           <Jumbotron>
             <h1>Hi,</h1>
             <p>My name is Magnus Wallin and I'm a Front-End Developer from Stockholm, Sweden.</p>
-            <p>If you want to contact me, check me out on your favorite social media platform.</p>
+            <p>If you want to contact me, check me out on your favorite social media platform or send me an e-mail.</p>
+            <Button><a href="mailto:magnus.wallin@student.kyh.se" target="_top">Send Mail</a></Button>
           </Jumbotron>
-        {/* <Image src="assets/dog-people.jpg" className="header-image" /> */}
-        <Jumbotron>
+          <Jumbotron>
+            <a href="https://www.facebook.com/mange.wallin" target="_blank"><i className="fab fa-facebook-square"></i></a>
+            <a href="https://www.linkedin.com/in/magnus-wallin-4b5937b3/" target="_blank"><i className="fab fa-linkedin"></i></a>
+          </Jumbotron>
+          <Jumbotron>
           <h1>This is some of the tools I'm working with.</h1> <br/>
             <Row className="show-grid">
               <Col xs={4} s={4} md={3} lg={2}>

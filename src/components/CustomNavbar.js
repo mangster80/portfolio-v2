@@ -34,9 +34,6 @@ export default class CustomNavbar extends Component {
         <Navbar.Header>
           <Navbar.Brand>
             <p>{tempRounded}°C</p>
-            {/* <Link to="/">
-              <Image src="assets/MWlogo.png" className="logo" responsive />
-            </Link> */}
           </Navbar.Brand>
           <Navbar.Toggle />
         </Navbar.Header>
@@ -46,7 +43,7 @@ export default class CustomNavbar extends Component {
               Home
             </NavItem>
             <NavItem eventKey={2} componentClass={Link} href="/about" to="/about">
-              About
+              Contact
             </NavItem>
             <NavItem eventKey={4} componentClass={Link} href="/guestbook" to="/guestbook">
               Guestbook
