@@ -15,7 +15,7 @@ class Guestbook extends React.Component {
   }
 
   componentDidMount() {
-    fetch('https://portfolio-api-heroku.herokuapp.com/mw_guestbook')
+    fetch('https://portfolio-api-heroku.herokuapp.com/guestbook')
     .then(response => response.json())
     .then(res => {
       this.setState({guestbook: res.data})
@@ -27,7 +27,7 @@ class Guestbook extends React.Component {
     event.preventDefault()
 
     var self = this;
-    fetch('https://portfolio-api-heroku.herokuapp.com/mw_guestbook',{
+    fetch('https://portfolio-api-heroku.herokuapp.com/guestbook',{
       headers: {
         'Accept': 'application/json',
         'Content-Type': 'application/json'
