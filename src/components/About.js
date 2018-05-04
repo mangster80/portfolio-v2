@@ -14,8 +14,8 @@ export default class About extends Component {
             <Button><a href="mailto:magnus.wallin@student.kyh.se" target="_top">Send Mail</a></Button>
           </Jumbotron>
           <Jumbotron>
-            <a href="https://www.facebook.com/mange.wallin" target="_blank"><i className="fab fa-facebook-square"></i></a> <br/>
-            <a href="https://www.linkedin.com/in/magnus-wallin-4b5937b3/" target="_blank"><i className="fab fa-linkedin"></i></a>
+              <a href="https://www.facebook.com/mange.wallin" target="_blank"><i className="fab fa-facebook-square"></i></a> <br/>
+              <a href="https://www.linkedin.com/in/magnus-wallin-4b5937b3/" target="_blank"><i className="fab fa-linkedin"></i></a>
           </Jumbotron>
           <Jumbotron>
           <h1>This is some of the tools I'm working with.</h1> <br/>

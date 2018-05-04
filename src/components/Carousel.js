@@ -60,7 +60,7 @@ class Carousel extends React.Component {
                     alt="red"
                   />
                   <div className="carousel-caption">
-                    Image
+                    <h1>Front End Developer</h1>
                   </div>
                 </div>
                 <div style={{height:400}}>
@@ -70,7 +70,7 @@ class Carousel extends React.Component {
                     alt="mountains"
                   />
                   <div className="carousel-caption">
-                    Image
+                    <h1>Front End Developer</h1>
                   </div>
                 </div><div style={{height:400}}>
                   <img
@@ -79,7 +79,7 @@ class Carousel extends React.Component {
                     alt="snow"
                   />
                   <div className="carousel-caption">
-                    Image
+                    <h1>Front End Developer</h1>
                   </div>
                 </div>
               </React_Bootstrap_Carousel>
