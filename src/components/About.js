@@ -14,8 +14,17 @@ export default class About extends Component {
             <Button><a href="mailto:magnus.wallin@student.kyh.se" target="_top">Send Mail</a></Button>
           </Jumbotron>
           <Jumbotron>
-              <a href="https://www.facebook.com/mange.wallin" target="_blank"><i className="fab fa-facebook-square"></i></a> <br/>
-              <a href="https://www.linkedin.com/in/magnus-wallin-4b5937b3/" target="_blank"><i className="fab fa-linkedin"></i></a>
+            <Row className="show-grid">
+              <Col xs={4} s={4} md={3} lg={2}>
+                <a href="https://www.linkedin.com/in/magnus-wallin-4b5937b3/"><Image src="assets/linkedin.svg" className="about-profile-pic" responsive /></a>
+              </Col>
+              <Col xs={4} s={3} md={3} lg={2}>
+                <a href="https://www.facebook.com/mange.wallin"><Image src="assets/facebook-square.svg" className="about-profile-pic" responsive /></a>
+              </Col>
+              <Col xs={4} s={4} md={3} lg={2}>
+                <a href="https://www.instagram.com/mangewallin/?hl=sv"><Image src="assets/instagram.svg" className="about-profile-pic" responsive /></a>
+              </Col>
+            </Row>
           </Jumbotron>
           <Jumbotron>
           <h1>This is some of the tools I'm working with.</h1> <br/>
